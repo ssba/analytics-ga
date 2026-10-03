@@ -1,4 +1,6 @@
 {
+    "name": "ssba/analytics-ga",
+    "description": "Google Analytics Real-time Data",
     "require": {
         "google/analytics-data": "^0.17"
     }

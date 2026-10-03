@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: analytics-ga
+    runtime: php
+    startCommand: "php -S 0.0.0.0:10000 index.php"
+    buildCommand: "composer install"
+    envVars:
+      - key: GA_PROPERTY_ID
+        scope: runtime
+      - key: GOOGLE_CREDENTIALS_BASE64
+        scope: runtime

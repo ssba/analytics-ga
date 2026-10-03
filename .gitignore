@@ -1,2 +1,3 @@
 vendor/
-credentials.json
+composer.lock
+.env
