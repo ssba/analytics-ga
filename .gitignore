@@ -1,3 +1,7 @@
 vendor/
 composer.lock
+*.json
+!composer.json
 .env
+*.b64
+*.pem
